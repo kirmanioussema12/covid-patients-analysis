@@ -1,51 +1,59 @@
 <div align="center">
 
-# 📊 COVID Patients Analysis
+# 🦠 COVID Patients Analysis 🦠
 
-![COVID Analysis](https://img.shields.io/badge/Project-COVID%20Analysis-blue?style=for-the-badge&logo=github)
+**Exploratory Data Analysis of COVID-19 Patient Records**
 
-📈 A data‑driven exploration of COVID‑19 patient data, focusing on insights, trends, and analytical results.
+[![Python](https://img.shields.io/badge/Python-3.8%2B-blue?logo=python&logoColor=white)](https://www.python.org/)
+[![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-150458?logo=pandas&logoColor=white)](https://pandas.pydata.org/)
+[![Matplotlib](https://img.shields.io/badge/Matplotlib-Visuals-1f77b4?logo=matplotlib&logoColor=white)](https://matplotlib.org/)
+[![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-orange?logoColor=white)](https://seaborn.pydata.org/)
+[![Jupyter](https://img.shields.io/badge/Jupyter-Notebook-F37626?logo=jupyter&logoColor=white)](https://jupyter.org/)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 </div>
 
 ---
 
-### 🔍 Overview
+## 📖 Project Overview
 
-`covid‑patients‑analysis` is a Python‑based data project that analyzes COVID‑19 patient data to extract meaningful insights like trends, outcomes, correlation, and visual summaries. This repository contains data files, Jupyter Notebooks, and scripts for clean preprocessing, statistical analysis, and visualization.
+This repository contains an **exploratory data analysis (EDA)** of **COVID-19 patient data**, aimed at uncovering trends, patterns, risk factors, outcomes, and demographic insights from real-world records.
 
-The analysis includes generating charts, tables, and interpretable results that can be used for further research, reporting, or presentations.
+The project focuses on:
+- Cleaning and preprocessing raw patient-level data
+- Visualizing key variables (age, symptoms, comorbidities, recovery/death rates, etc.)
+- Identifying correlations (e.g., age vs severity, location vs cases)
+- Generating interpretable charts and statistical summaries
 
----
-
-## 🚀 Built With
-
-These are the major tools and tech used in the project:
-
-| Tool | Purpose |
-|------|---------|
-| 🐍 Python | Main scripting language |
-| 📊 Pandas | Data manipulation |
-| 📈 Matplotlib & Seaborn | Visualizations |
-| 📓 Jupyter Notebooks | Interactive analysis |
-| 📁 CSV / Dataset files | Source data |
+Perfect for students, researchers, or anyone studying pandemic epidemiology or healthcare data analysis.
 
 ---
 
-## 📌 Badges
+## 🛠️ Technologies & Libraries Used
 
-![Python](https://img.shields.io/badge/python-v3.8+-blue?logo=python&style=flat)  
-![Jupyter](https://img.shields.io/badge/jupyter-notebook-orange?logo=jupyter&style=flat)  
-![Repo Size](https://img.shields.io/github/repo-size/kirmanioussema12/covid-patients-analysis?style=flat)
+| Library/Tool       | Purpose                              | Link / Badge                                      |
+|--------------------|--------------------------------------|---------------------------------------------------|
+| Python             | Core language                        | ![Python](https://img.shields.io/badge/Python-3.8+-blue) |
+| Jupyter Notebook   | Interactive analysis & presentation  | ![Jupyter](https://img.shields.io/badge/Jupyter-F37626) |
+|  NumPy   | Numerical operations                 | —                                                 |
+
+Dependencies → see [`requirements.txt`](requirements.txt) (if present) or install manually.
 
 ---
+
+## 📁 Repository Structure
+
+```text
 covid-patients-analysis/
-├── data/ # Raw CSV datasets
-├── notebooks/ # Jupyter Notebooks for exploration
-├── scripts/ # Python scripts for automation
-├── outputs/ # Result charts, dashboards, tables
-├── requirements.txt # Python dependencies
-└── README.md # Project documentation (this file)
+├── .vscode/                # VS Code settings (optional)
+├── Data/                   # Raw & processed COVID-19 patient datasets (.csv)
+├── src/                    # Python scripts / modules (data utils, functions)
+├── notebooks/              # Jupyter Notebooks (.ipynb) – main analysis files
+├── outputs/                # Saved charts, tables, dashboards (png, pdf, etc.)
+├── scripts/                # Automation / ETL scripts
+├── requirements.txt        # Python dependencies (if added)
+└── README.md               # This file
+```
 
 ---
 
@@ -59,12 +67,7 @@ covid-patients-analysis/
 
 ---
 
-## 🧠 Example Visual Output
 
-<!-- Replace with your actual GIF or screenshot -->
-![Analysis Preview](https://raw.githubusercontent.com/kirmanioussema12/covid-patients-analysis/main/assets/preview.gif)
-
----
 
 ## 💾 Installation & Setup
 
